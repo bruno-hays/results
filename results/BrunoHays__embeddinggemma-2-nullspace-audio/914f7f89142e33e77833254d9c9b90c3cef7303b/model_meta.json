@@ -1,7 +1,7 @@
 {
     "loader_kwargs": {
         "gamma": 1.0,
-        "head_revision": "f7a7b63812f1c17408d96a60627be1c43e4a0644"
+        "head_revision": "0222035d2bb6e8baa9949b026a87368c520f8eba"
     },
     "name": "BrunoHays/embeddinggemma-2-nullspace-audio",
     "revision": "914f7f89142e33e77833254d9c9b90c3cef7303b",
@@ -47,12 +47,8 @@
     "use_instructions": true,
     "training_datasets": [
         "HotpotQAHardNegatives",
-        "ylacombe/expresso",
         "MIRACLRetrievalHardNegatives",
-        "agkphysics/AudioSet",
         "FEVERHardNegatives",
-        "ashraq/esc50",
-        "lewtun/music_genres",
         "NQHardNegatives"
     ],
     "adapted_from": "google/embeddinggemma-2",
